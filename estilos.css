@@ -1,0 +1,171 @@
+.fondo1 {
+    background-color:#257060 ;
+}
+.fondo2 {
+    background-image: url('recursos/fondo\ parallax.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    z-index: -1; 
+}
+header { 
+    background-color: #257060 ;
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+nav {
+    background-color: #fffbf5;
+    padding: 5px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.bg1{
+    background-color: #ff9c73;
+}
+
+.bg2{
+    background-color: #ffe6d2 ;
+}
+.logo {
+    background: url(img/Logo.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 75px;
+    width: 194px;
+    z-index: 10;
+    font-size: 0;
+    left: 2rem;
+    top: 5px;
+    bottom: 5px;
+}
+
+#carouselSection {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn.fondo1 {
+    color: #ffefe7;
+}
+
+.nav-link {
+    color: #ffefe7;
+}
+
+.custom-button {
+    color: #ffefe7;
+    background-color: #257060;
+}
+
+.thank-you-container {
+        max-width: 600px;
+        padding: 20px;
+        background: #ffefe7;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        text-align: center;
+    }
+    .footer {
+        background-color: #333;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    .footer .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    
+    .footer .column {
+        flex: 1;
+        min-width: 200px;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .footer .column h3 {
+        border-bottom: 1px solid #555;
+        padding-bottom: 10px;
+    }
+    
+    .footer .column ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footer .column ul li {
+        margin: 10px 0;
+    }
+    
+    .footer .column ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .footer .column img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .footer .copyright {
+        border-top: 1px solid #555;
+        padding-top: 10px;
+        margin-top: 20px;
+    }
+    
+    .btn-home {
+        color: #ffefe7;
+        background-color: #257060;
+    }
+    
+    @media (max-width: 768px) {
+        .footer .column {
+            flex: 100%;
+        }
+    }
+
+.borde {
+    border: 1px solid color #ff9c73
+}
+
+
+@media screen and (max-width: 991px){
+    .logo {
+        background: url(img/logo_tablet.png);
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 129px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .logo {
+        background: url(img/logo_cel.png);
+        left: calc(50% - 15px);
+        height: 80px;
+        width: 81px;
+    }
+}
